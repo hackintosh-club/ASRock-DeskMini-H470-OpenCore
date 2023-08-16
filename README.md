@@ -5,7 +5,7 @@
 
 ### OpenCore
 
-[OpenCore 0.9.3](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.4](https://github.com/acidanthera/OpenCorePkg)
 
 
 ### macOS
@@ -32,12 +32,23 @@
 ### BIOS
 
 ```
+Security
+	|---- Security Boot: disabled
+Boot
+    |---- Fast Boot: disabled
 ```
+
+
+### Issues
+
+- Only one monitor works when the system starts with dual monitors are connected at the same time. Solution: Turn on only one monitor before startup, and turn on another after the system on.
+
 
 ### Notes
  - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) build your SMBIOS
  - U Must Use CFGLock.efi Tool Unlock CFG LOCK first
 ![image](Screenshot/CFGLock.efi.png)
+
 
 ### Screenshot
 
@@ -50,13 +61,13 @@
 
 ### Kexts
 
-- [Lilu.kext 1.6.5](https://github.com/acidanthera/Lilu)
+- [Lilu.kext 1.6.7](https://github.com/acidanthera/Lilu)
 - [SMCProcessor.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [SMCSuperIO.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [VirtualSMC.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
-- [NVMeFix.kext 1.1.0](https://github.com/acidanthera/NVMeFix)
-- [AppleALC.kext 1.8.3](https://github.com/acidanthera/AppleALC)
+- [NVMeFix.kext 1.1.1](https://github.com/acidanthera/NVMeFix)
+- [AppleALC.kext 1.8.4](https://github.com/acidanthera/AppleALC)
 - [IntelMausi.kext 1.0.7](https://github.com/acidanthera/IntelMausi)
 
 

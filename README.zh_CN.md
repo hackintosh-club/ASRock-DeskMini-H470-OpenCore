@@ -5,7 +5,7 @@
 
 ### OpenCore
 
-[OpenCore 0.9.3](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.4](https://github.com/acidanthera/OpenCorePkg)
 
 
 ### macOS
@@ -32,12 +32,23 @@
 ### BIOS设置
 
 ```
+Security
+	|---- Security Boot: disabled
+Boot
+    |---- Fast Boot: disabled
 ```
+
+
+### 存在问题
+
+- 部分双显示器同时接入时，开机只能亮一台。解决方法：启动前只开一台显示器，进行登录界面后再开启另一台
+
 
 ### 注意事项
  - 使用 [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) 生成 SMBIOS
  - 安装前务必使用CFGLock.efi工具解锁 CFG LOCK
 ![image](Screenshot/CFGLock.efi.png)
+
 
 ### 系统截图
 
@@ -50,13 +61,13 @@
 
 ### 驱动
 
-- [Lilu.kext 1.6.5](https://github.com/acidanthera/Lilu)
+- [Lilu.kext 1.6.7](https://github.com/acidanthera/Lilu)
 - [SMCProcessor.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [SMCSuperIO.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [VirtualSMC.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
-- [NVMeFix.kext 1.1.0](https://github.com/acidanthera/NVMeFix)
-- [AppleALC.kext 1.8.3](https://github.com/acidanthera/AppleALC)
+- [NVMeFix.kext 1.1.1](https://github.com/acidanthera/NVMeFix)
+- [AppleALC.kext 1.8.4](https://github.com/acidanthera/AppleALC)
 - [IntelMausi.kext 1.0.7](https://github.com/acidanthera/IntelMausi)
 
 
