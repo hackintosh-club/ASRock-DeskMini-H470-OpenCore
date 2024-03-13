@@ -9,7 +9,7 @@
 		<key>#GITHUB</key>
 		<string>https://github.com/hackintosh-club/ASRock-DeskMini-H470-OpenCore</string>
 		<key>#VERSION</key>
-		<string>0.9.7</string>
+		<string>0.9.9</string>
 		<key>ACPI</key>
 		<dict>
 			<key>Add</key>
@@ -237,7 +237,7 @@
 					<key>BundlePath</key>
 					<string>AppleALC.kext</string>
 					<key>Comment</key>
-					<string>V1.8.8</string>
+					<string>V1.8.9</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>

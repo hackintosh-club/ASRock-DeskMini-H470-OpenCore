@@ -5,15 +5,20 @@
 
 ### OpenCore
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.9](https://github.com/acidanthera/OpenCorePkg)
 
 
 ### macOS
 
+- Sonoma
 - Ventura
 - Monterey
 - Big Sur
 - Catalina
+
+Intel 网卡注意: 
+ - 替换 `AirportItlwm.kext` 为相应的 macOS 版本 
+ - 默认 `AirportItlwm.kext` 仅支持 Ventura 系统
 
 
 ### Spec
@@ -61,13 +66,13 @@ Boot
 
 ### Kexts
 
-- [Lilu.kext 1.6.7](https://github.com/acidanthera/Lilu)
-- [SMCProcessor.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [SMCSuperIO.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [VirtualSMC.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
-- [AppleALC.kext 1.8.8](https://github.com/acidanthera/AppleALC)
-- [IntelMausi.kext 1.0.7](https://github.com/acidanthera/IntelMausi)
+- [Lilu.kext](https://github.com/acidanthera/Lilu)
+- [SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC)
+- [SMCSuperIO.kext](https://github.com/acidanthera/VirtualSMC)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC)
+- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen)
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC)
+- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi)
 
 
 ### Tools
