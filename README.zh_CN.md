@@ -87,6 +87,11 @@ Boot
 - [ProperTree](https://github.com/corpnewt/ProperTree) Plist 编辑器。
 
 
+### OC 主题
+
+[BsxM1](https://github.com/blackosx/BsxM1)
+
+
 ### 联系我们
 
  - [Hackintosh.Club - 黑果之家](https://hackintosh.club/) 
